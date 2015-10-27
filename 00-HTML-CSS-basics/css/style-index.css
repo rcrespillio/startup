@@ -1,0 +1,62 @@
+/* CSS for exercises from 2.1 to 2.5.1 */
+
+body {
+  text-align: center;
+}
+
+.header {
+  font-size: 46px;
+
+}
+
+.footer, 
+.sidebar {
+  font-size: 10px;
+}
+
+.main {
+  display: block;
+}
+
+.content {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.navigation {
+  font-size: 12px;
+  float: left;
+}
+
+.navigation, 
+.sidebar {
+  display: inline-block;
+}
+
+.sidebar {
+  float: right;
+}
+
+.header, 
+.footer {
+  background-color: magenta;
+}
+
+nav, article {
+  background-color: blue;
+}
+
+
+/*
+
+2.3.6-
+html * {
+  font-family: helvetica;
+}
+
+2.3.7-
+.oh-no-inline-styles[style]{
+  background: green;
+}
+
+*/
