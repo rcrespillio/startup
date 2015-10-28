@@ -1,6 +1,6 @@
 /* CSS for exercise 2.5.2 */
 
-@media screen and (max-width: 700px) { //screen less than 700 pixels wide
+@media screen and (max-width: 700px) {
   #container {
     width: 300px;
     height: 100%;
@@ -55,7 +55,7 @@
   }
 }
 
-@media screen and (min-width: 700px) { //screen more than 700 pixels wide
+@media screen and (min-width: 700px) {
 
   #container {
     width: 700px;
