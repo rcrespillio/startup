@@ -1,0 +1,11 @@
+
+section{
+	text-align: center;
+}
+.highlighted{
+	background-color: yellow;
+}
+article{
+	border: solid 1px #000;
+	margin:10px;
+}
