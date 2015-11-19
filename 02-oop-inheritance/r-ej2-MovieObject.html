@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Design Patterns and OOP in JavaScript</title>
+        <script src="myScript.js"></script>
+        
+	<script>
+            var downlTerminator = new DownloadableMovie();
+            downlTerminator.set('title', 'Terminator downloadable');
+            downlTerminator.play();
+            downlTerminator.download();
+            
+            var terminator = new Movie();
+            terminator.set('title', 'Terminator');
+            // ...
+            terminator.play();
+            terminator.stop();
+            terminator.share("Rodrigo");
+            actors = [];
+            actors[0] = new Actor("Kevin Spacey");
+            actors[1] = new Actor("Bryan Cranston");
+            terminator.set('actors', actors);
+            
+            
+	</script>
+    </head>
+    <body>
+        <header class="header">
+        	<h1>Design Patterns and OOP in JavaScript</h1>
+       	</header>
+       	
+       	
+    </body>
+</html>
